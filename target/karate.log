@@ -1,0 +1,236 @@
+15:02:03.996 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:02:03.996 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1774375323996
+15:02:03.996 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+15:02:05.461 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://automationexercise.com/api/createAccount
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 323
+1 > Host: automationexercise.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+name=TestUser&email=testuser_karate_6c09f8f5-7b66-4825-af7f-b6857e22cf4f%40test.com&password=password123&title=Mr&birth_date=15&birth_month=6&birth_year=1995&firstname=Test&lastname=User&company=TestCompany&address1=Calle+123&address2=Apt+456&country=Canada&zipcode=12345&state=Ontario&city=Toronto&mobile_number=1234567890
+
+15:02:05.461 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://automationexercise.com/api/createAccount
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 323
+1 > Host: automationexercise.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+name=TestUser&email=testuser_karate_6cabc8c4-a68e-4ab4-87b4-b79c2ec63b37%40test.com&password=password123&title=Mr&birth_date=15&birth_month=6&birth_year=1995&firstname=Test&lastname=User&company=TestCompany&address1=Calle+123&address2=Apt+456&country=Canada&zipcode=12345&state=Ontario&city=Toronto&mobile_number=1234567890
+
+15:02:05.461 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://automationexercise.com/api/createAccount
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 323
+1 > Host: automationexercise.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+name=TestUser&email=testuser_karate_e6e47044-556b-46dd-b87a-75239e35b852%40test.com&password=password123&title=Mr&birth_date=15&birth_month=6&birth_year=1995&firstname=Test&lastname=User&company=TestCompany&address1=Calle+123&address2=Apt+456&country=Canada&zipcode=12345&state=Ontario&city=Toronto&mobile_number=1234567890
+
+15:02:05.461 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://automationexercise.com/api/createAccount
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 323
+1 > Host: automationexercise.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+name=TestUser&email=testuser_karate_3d93a330-28e7-41d1-978d-b6d0ad9a1afa%40test.com&password=password123&title=Mr&birth_date=15&birth_month=6&birth_year=1995&firstname=Test&lastname=User&company=TestCompany&address1=Calle+123&address2=Apt+456&country=Canada&zipcode=12345&state=Ontario&city=Toronto&mobile_number=1234567890
+
+15:02:06.542 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1079
+1 < 200
+1 < Date: Tue, 24 Mar 2026 18:02:06 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < vary: Accept,Cookie,Accept-Encoding
+1 < referrer-policy: same-origin
+1 < x-frame-options: DENY
+1 < x-content-type-options: nosniff
+1 < allow: POST, OPTIONS
+1 < x-powered-by: Phusion Passenger(R) 6.1.2
+1 < status: 200 OK
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KOfHpKgC61PXyDS5YbqeHbuyIRVJfEIfSxVRo6%2BgI5mTh1L2braZL%2BxEk5W%2Bk3QlMxmaOXpbdrc0aaZRNRCI7DKrIenKI4HMB0jaEPPFoEVH9lOClHI%3D"}]}
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=9,cfOrigin;dur=721
+1 < CF-RAY: 9e1795bb6d87d7b2-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"responseCode": 201, "message": "User created!"}
+
+15:02:06.542 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1079
+1 < 200
+1 < Date: Tue, 24 Mar 2026 18:02:06 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < vary: Accept,Cookie,Accept-Encoding
+1 < referrer-policy: same-origin
+1 < x-frame-options: DENY
+1 < x-content-type-options: nosniff
+1 < allow: POST, OPTIONS
+1 < x-powered-by: Phusion Passenger(R) 6.1.2
+1 < status: 200 OK
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2%2FB0SqhNQQGc3FIhyMN7FVZPgk80twtC72xRfMacvq1hCq3lH%2BSUsK%2BJoNOlONJ%2F7AV%2FhKK%2FyvHelENtSIvQHML1wufQxbrxNwASfvfcBakMEJxA%2FP8%3D"}]}
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=8,cfOrigin;dur=730
+1 < CF-RAY: 9e1795bb6a4af191-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"responseCode": 201, "message": "User created!"}
+
+15:02:06.567 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1105
+1 < 200
+1 < Date: Tue, 24 Mar 2026 18:02:06 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < vary: Accept,Cookie,Accept-Encoding
+1 < referrer-policy: same-origin
+1 < x-frame-options: DENY
+1 < x-content-type-options: nosniff
+1 < allow: POST, OPTIONS
+1 < x-powered-by: Phusion Passenger(R) 6.1.2
+1 < status: 200 OK
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=DjBQEOYHeTrCwU1j8bzG3987V4PzKPVM%2F52eD5ASWGJUNLuzuLNz%2FD8VXJASO%2FiIeblVgMocWDhTigEd41O18fZFoNNwEo3b7m8bxXNPmulS%2FoD1t9I%3D"}]}
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=14,cfOrigin;dur=747
+1 < CF-RAY: 9e1795bb689da531-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"responseCode": 201, "message": "User created!"}
+
+15:02:06.568 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > DELETE https://automationexercise.com/api/deleteAccount
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 90
+1 > Host: automationexercise.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+email=testuser_karate_3d93a330-28e7-41d1-978d-b6d0ad9a1afa%40test.com&password=password123
+
+15:02:06.572 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://automationexercise.com/api/updateAccount
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 356
+1 > Host: automationexercise.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+name=UpdatedUser&email=testuser_karate_e6e47044-556b-46dd-b87a-75239e35b852%40test.com&password=password123&title=Mrs&birth_date=25&birth_month=12&birth_year=1985&firstname=Updated&lastname=UserModified&company=NewCompany&address1=Calle+Nueva+200&address2=Suite+300&country=Australia&zipcode=22222&state=New+South+Wales&city=Sydney&mobile_number=2222222222
+
+15:02:06.575 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1114
+1 < 200
+1 < Date: Tue, 24 Mar 2026 18:02:06 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < vary: Accept,Cookie,Accept-Encoding
+1 < referrer-policy: same-origin
+1 < x-frame-options: DENY
+1 < x-content-type-options: nosniff
+1 < allow: POST, OPTIONS
+1 < x-powered-by: Phusion Passenger(R) 6.1.2
+1 < status: 200 OK
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pOTa%2FeMSO1wdHPAEVvbIkRxH69D3JpAAXoNCoS0nwloG6qjhs0K6SZegxwgspVFyihu0HPNQLz7PHSrzWDlr6gnGw3rK3nQga7sQInJcMYO7J12yjwM%3D"}]}
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=10,cfOrigin;dur=760
+1 < CF-RAY: 9e1795bb6f2e6232-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"responseCode": 201, "message": "User created!"}
+
+15:02:06.581 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://automationexercise.com/api/getUserDetailByEmail?email=testuser_karate_6cabc8c4-a68e-4ab4-87b4-b79c2ec63b37%40test.com
+1 > Host: automationexercise.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:02:06.989 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 4 (3 remaining) classpath:examples/users/createAccount.feature
+15:02:07.019 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 446
+1 < 200
+1 < Date: Tue, 24 Mar 2026 18:02:07 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < vary: Accept,Cookie,Accept-Encoding
+1 < referrer-policy: same-origin
+1 < x-frame-options: DENY
+1 < x-content-type-options: nosniff
+1 < allow: OPTIONS, PUT
+1 < x-powered-by: Phusion Passenger(R) 6.1.2
+1 < status: 200 OK
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BrL6RPmx9Pk3uKrzZghmk9LVqH5J%2FuagMRw8UIROD%2BweTGIkx8b8W8Iv4AacE%2Fs6fdIIDzqI5EhBRCvR05Bx61VGgvlfZdQMqzXHljI%2BFk2BFOCmcfk%3D"}]}
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=4,cfOrigin;dur=332
+1 < CF-RAY: 9e1795c0eff9f20e-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"responseCode": 200, "message": "User updated!"}
+
+15:02:07.028 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 445
+1 < 200
+1 < Date: Tue, 24 Mar 2026 18:02:07 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < vary: Accept,Cookie,Accept-Encoding
+1 < referrer-policy: same-origin
+1 < x-frame-options: DENY
+1 < x-content-type-options: nosniff
+1 < allow: DELETE, GET, PUT, POST, OPTIONS
+1 < x-powered-by: Phusion Passenger(R) 6.1.2
+1 < status: 200 OK
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7UgXEDCJ%2BmnNGvLJpi4hw68J4u%2Flz43Yd8kzoGG2Y4YWATnqktgVorZjGzw33UR%2Foy1B%2B%2BiI7L7EIZLa1QRc%2BP%2FGJ1TZKCaPSvd4R2QLA%2FA7neiDybs%3D"}]}
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=8,cfOrigin;dur=324
+1 < CF-RAY: 9e1795c0fe4c627e-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"responseCode": 200, "user": {"id": 1483770, "name": "TestUser", "email": "testuser_karate_6cabc8c4-a68e-4ab4-87b4-b79c2ec63b37@test.com", "title": "Mr", "birth_day": "15", "birth_month": "6", "birth_year": "1995", "first_name": "Test", "last_name": "User", "company": "TestCompany", "address1": "Calle 123", "address2": "Apt 456", "country": "Canada", "state": "Ontario", "city": "Toronto", "zipcode": "12345"}}
+
+15:02:07.458 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 890
+1 < 200
+1 < Date: Tue, 24 Mar 2026 18:02:07 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < vary: Accept,Cookie,Accept-Encoding
+1 < referrer-policy: same-origin
+1 < x-frame-options: DENY
+1 < x-content-type-options: nosniff
+1 < allow: OPTIONS, DELETE
+1 < x-powered-by: Phusion Passenger(R) 6.1.2
+1 < status: 200 OK
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yOTcrWu4IZ4hQcK7ew4pIY8GYz7sXap2P%2FzHFRh5hUxNlis1V6hNTy4M%2BZHs2NelXEgkx0LlXc3CcD4ntDz4F1MihRx8cJemhMukDEN51UAhczDYdPY%3D"}]}
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=12,cfOrigin;dur=771
+1 < CF-RAY: 9e1795c0ef111b25-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"responseCode": 200, "message": "Account deleted!"}
+
+15:02:07.576 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 4 (2 remaining) classpath:examples/users/deleteAccount.feature
+15:02:07.636 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 4 (1 remaining) classpath:examples/users/getUserDetailByEmail.feature
+15:02:07.686 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 4 (0 remaining) classpath:examples/users/updateAccount.feature
